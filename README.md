@@ -54,7 +54,6 @@ A clean and modern blogging platform built using **Laravel 12**, **Blade**, **Bo
 
 Follow these steps to set up the project locally:
 
-### 1. Clone the Project
 
 ```bash
 git clone https://github.com/KunalPandharkar/syscom-blogging-task.git
