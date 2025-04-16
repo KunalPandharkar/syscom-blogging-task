@@ -11,7 +11,6 @@ A clean and modern blogging platform built using **Laravel 12**, **Blade**, **Bo
 - Comment on Posts
 - Bootstrap 5 Responsive UI
 - Redirect to Last Visited Page After Login
-- SEO Meta Support
 
 ---
 
