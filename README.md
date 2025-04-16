@@ -11,7 +11,7 @@ A clean and modern blogging platform built using **Laravel 12**, **Blade**, **Bo
 - Comment on Posts
 - Bootstrap 5 Responsive UI
 - Redirect to Last Visited Page After Login
-
+- Profile Management & Picture Upload
 ---
 
 ## ⚙️ Requirements
@@ -59,3 +59,21 @@ Follow these steps to set up the project locally:
 ```bash
 git clone https://github.com/KunalPandharkar/syscom-blogging-task.git
 cd syscom-blogging-task
+
+composer install
+
+cp .env.example .env
+php artisan key:generate
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=sysblogs
+DB_USERNAME=your_db_username
+DB_PASSWORD=your_db_password
+
+php artisan migrate
+php artisan storage:link
+php artisan serve
+
+
