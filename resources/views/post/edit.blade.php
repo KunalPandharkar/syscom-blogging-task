@@ -100,7 +100,7 @@
                 <div class="col-md-2 form-check form-switch mb-4">
                     <input class="form-check-input" type="checkbox" id="is_published" name="is_published"
                         {{  $post->is_published ? 'checked' : '' }}>
-                    <label class="form-check-label" for="is_published">Hide this post</label>
+                    <label class="form-check-label" for="is_published">Online</label>
                 </div>
 
                 <!-- Submit Button -->

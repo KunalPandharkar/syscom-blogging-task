@@ -44,7 +44,7 @@
                                 · {{$post->author}}</p>
                             <p class="card-text mb-3 flex-grow-1">{{$post->description}}</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="#" class="btn btn-sm btn-primary">View Post</a>
+                                <a href="{{route('show.post', $post->id)}}" class="btn btn-sm btn-primary">View Post</a>
                                 <div>
                                     <a href="{{route('get.update.post',['id'=>$post->id])}}" class="btn btn-sm btn-warning">Edit</a>
                                     <form action="{{ route('delete.post', $post->id) }}" method="POST" style="display: inline-block;"

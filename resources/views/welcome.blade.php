@@ -51,7 +51,7 @@
 
                     @isset($recent_posts)
                         @forelse ($recent_posts as $post)
-                            <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="col-md-6 col-lg-6 mb-4">
                                 <div class="card shadow-sm h-100 border-0 rounded-4 overflow-hidden">
                                     @if ($post->image)
                                         <div class="position-relative" style="height: 200px;">

@@ -66,7 +66,7 @@ class PostController extends Controller
         ]);
 
 
-        return redirect()->back()->with('success', 'Blog created successfully!');
+        return redirect()->route('user.posts',['id'=>Auth::id()])->with('success', 'Blog created successfully!');
     }
 
     public function getPostEdit(Request $request, $id)
