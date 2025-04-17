@@ -8,6 +8,7 @@ A clean and modern blogging platform built using **Laravel 12**, **Blade**, **Bo
 
 - User Registration & Login
 - Create, Edit & Delete Blog Posts
+- CKEditor Text Editor To Create Blogs
 - Publish/Unblish the Blog Posts
 - Comment on Posts
 - Bootstrap 5 Responsive UI
